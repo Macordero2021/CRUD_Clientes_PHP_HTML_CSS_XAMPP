@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    background-color: white;
+    color: white;
+    height: 60px;
+    display: flex;
+    flex-direction: row;    
+
+}
+
+.Logo{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    min-height: calc(79vh - 50px);
+    color: black;
+    font-size: 14px;
+}
+
+.Title{
+    background-color: #182848;
+    margin: 0;
+    padding: 15px;
+    box-shadow: 10px 10px 10px 2px black;
+    margin-bottom: 15px;
+    position: sticky;
+    font-size: 30px;
+    color:white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.icons-redes{
+    position:relative;
+    margin: 10px;
+    margin-left: 150px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius:50%;
+
+}
+
+.icons-redes:hover{
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse:separate;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #236825;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-left: 5px;
+}
+
+.btn:hover{
+    background-color: goldenrod;
+    transform: translateY(-2px);
+    color: black;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+footer{
+    background-color: white;
+    margin: 20px;
+    margin-left: 0;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    text-align: center;
+    padding-top: 20px;
+    
+}
